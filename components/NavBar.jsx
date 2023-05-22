@@ -28,8 +28,10 @@ const NavBar = () => {
             <nav className=' flex items-center justify-around p-2 w-full'>
 
                 <div className='mt-2 items-center flex gap-4'>
+                    <Link href={'/'}>
                     <Image src='/logo2.png' className='w-[30px] md:w-[40px]' width={40} height={40} />
-                    <Link href={'/'} className='text-gray-300 hover:text-gray-100 duration-300 text-2xl lg:text-3xl font-principal'>HOME</Link>
+                    <h1 className='text-gray-300 hover:text-gray-100 duration-300 text-2xl lg:text-3xl font-principal'>HOME</h1>
+                    </Link>
                 </div>
 
                 <div className='flex items-center gap-4 mt-2'>
