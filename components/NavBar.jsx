@@ -28,7 +28,7 @@ const NavBar = () => {
             <nav className=' flex items-center justify-around p-2 w-full'>
 
                 <div className='mt-2 items-center flex gap-4'>
-                    <Link href={'/'}>
+                    <Link className='flex gap-2' href={'/'}>
                     <Image src='/logo2.png' className='w-[30px] md:w-[40px]' width={40} height={40} />
                     <h1 className='text-gray-300 hover:text-gray-100 duration-300 text-2xl lg:text-3xl font-principal'>HOME</h1>
                     </Link>
